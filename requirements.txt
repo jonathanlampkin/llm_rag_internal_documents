@@ -1,0 +1,8 @@
+# requirements.in  (top-level only)
+fastapi>=0.110,<1
+uvicorn>=0.29,<1
+pydantic>=2,<3        # FastAPI now targets Pydantic v2
+sentence-transformers>=2.5,<3
+faiss-cpu>=1.7,<2
+prometheus-client>=0.17,<1
+openai>=1,<2          # optional; safe modern API
