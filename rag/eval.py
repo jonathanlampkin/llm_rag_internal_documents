@@ -4,8 +4,8 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 
 EVAL = [
-  {"q":"What does the README say about setup?","gt":"README.txt"},
-  {"q":"What is our privacy policy stance?","gt":"privacy.txt"}
+  {"q":"What does the README say about setup?","gt":"README.pdf"},
+  {"q":"What is our privacy policy stance?","gt":"privacy.pdf"}
 ]
 
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
